@@ -122,7 +122,7 @@
 
         <section class="page-section portfolio" id="portfolio">
 
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">로고 가이드</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">로고 디자인</h2>
             
 
 
@@ -136,7 +136,7 @@
               
             </div>
             
-            <img src="img/logo-s.jpg">
+            <img class="ll" src="img/logo-s.jpg">
             <div class="button">
                 <div class=" mb-5 mb-md-0">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
@@ -147,6 +147,12 @@
                     </div>
                 </div>
       </div>
+      <style>
+           .ll{display: block;
+              margin: 0 auto;}
+
+
+      </style>
         </section>
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
@@ -165,7 +171,7 @@
                  <div class=" web1">
                    <img src="img/proj-1.jpg">
                    <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="">
+                    <a class="btn btn-xl btn-outline-light" href="프로젝트1/index.html" target="_blank">
                         <i class="fas fa-download me-2"></i>
                         프로젝트1번 
                     </a>
@@ -180,7 +186,7 @@
 
                     <img src="img/proj-2.jpg">
                     <div class="text-center mt-4">
-                        <a class="btn btn-xl btn-outline-light" href="">
+                        <a class="btn btn-xl btn-outline-light" href="프로젝트2/index.html" target="_blank">
                             <i class="fas fa-download me-2"></i>
                             프로젝트2번 
                         </a>
@@ -190,10 +196,14 @@
                      </div>
                  </div>
                </div>
-
+               
                <style>
-
-                   .web img{width: 55%;}
+                    .web img{width: 100%;}
+                   .web{display: flex;}
+                   .web1{width:45%;
+                        margin: 0 2.5%;}
+                        .web2{width:45%;
+                        margin: 0 2.5%;}
                </style>
                 <!-- About Section Button-->
               
@@ -270,41 +280,10 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
+            <div class="container"><small>Copyright &copy; Your Website 2021<br>본 사이트는 상업적 목적이 아닌 김창한의 개인포트폴리오 사이트로 제작되었습니다.</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -327,11 +306,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="img/b-1.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">은행의 깔끔한 이미지 느낌을 주기위해 배경색을 따뜻하고 차분한색으로 주었으며 선물을 줄려고 하는 이미지를 두손 공손히 모으는 이미지로 줌으로써 친절 서비스를 간접적으로 표현하였습니다.카드별로 색깔을 다르게 주어 카드 디자인도 강조하였습니다.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -359,11 +334,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="img/b-2.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">가정의 달을 표현하기위해 가족사진을 매우크게 강조하였습니다. 가정의 달 행사를 강조하기위해 5자와 가정의달 문구를 크게 중앙에 배치 하였습니다. </p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -391,11 +362,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="img/b-3.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">커피의 따뜻함을 나타내며 커피의 이미지와 어울리는 배경색을 선택해서 넣었습니다.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -423,11 +390,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="img/b-4.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -455,11 +418,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="img/b-5.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -477,7 +436,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">이디아</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">로고 가이드</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -487,11 +446,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="img/logo.guide.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">커피의 따뜻함을 나타내며 커피의 이미지와 어울리는 배경색을 선택해서 넣었습니다.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                   
                                 </div>
                             </div>
                         </div>
