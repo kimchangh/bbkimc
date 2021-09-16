@@ -1,0 +1,138 @@
+/*********전체*********/
+*{padding:0;
+    margin:0;}
+    .wrap{width: 100%;
+        overflow-x: hidden;
+         }
+    .inner{width: 1400px;
+           margin:0 auto;}
+           
+           
+           @font-face {
+            font-family: 'EliceDigitalBaeum_Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        .nav-sle:hover{color: #852032;}
+/*************헤더*********/
+header{height: 97px;
+    width: 100%;
+    background-color: #a4adbc;
+    }    
+header img{position: relative;
+        left: 28.6%;
+        top: 35px;}   
+header a{text-decoration: none;
+      color:white;
+      position: relative;
+      bottom: 8px;
+      right: 230px;}
+
+header ul li{
+float: right;
+margin-right:60px;
+list-style-type:none;
+font-size: 28px;
+position: relative;
+right:100px;}
+
+
+.header_img{
+position: relative;
+left: 990px;
+bottom: 29px;} 
+.header_img img{margin-left: 30px;
+            
+            position: relative;
+            left: 300px;
+}
+
+
+/***********메인***************/
+.submain_img img{background-repeat: no-repeat;
+         width: 100%;}
+/**************컨텐츠1***************/
+.content1{background-image: url(../img/b_back.jpg);
+         background-size: 100% }
+.content1 img{ 
+                margin-bottom: 400px;
+                position: relative;
+                 top: 200px;
+                 }
+.text1{text-align: center;
+position: relative;
+top: 100px;}
+
+.text1 h1{font-size: 100px;
+          font-family:EliceDigitalBaeum_Bold;
+          }
+.text1 h2{font-size: 60px;
+    font-family:EliceDigitalBaeum_Bold;}
+.text1 p{font-weight: 600;}       
+
+
+
+/************콘텐츠2*****************/
+
+.content2{ 
+    padding-top: 120px ;
+    text-align: center;
+    background-image: url(../img/video-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+.content2>h2{color: #fff; margin: 20px 0 50px 0;}
+.slides .slick-dots{bottom: -50px;}
+
+
+
+/*******콘텐츠3********************/
+.content3{background-image: url(../img/u_back.jpg);
+    background-size: cover;
+          background-repeat: no-repeat;
+          }
+.back3_img::after, .back3_img::before{content: "";display: block; clear: both;}
+.flex0{width:45%;
+       float: right;
+       position: relative;
+    bottom: 100px;}
+.text2{position: relative;
+       top:380px;}
+
+.text2 h1{font-size: 80px;}
+
+.text2 h2{font-size:30px ;
+          position: relative;
+           top:100px;
+           left:20px}
+.text2 span{color:#e89494;}
+
+
+/*****************푸터******************/         
+
+footer ul::after, footer ul::before{content: "";display: block; clear: both;} 
+footer{background-color: black;
+    width: 100%;
+    padding: 50px 0;
+    }
+
+    footer ul li{width: 33.3%;
+         text-align: center;
+         color: white;
+         margin-top: 20px;
+        list-style: none;
+          float:left;
+           }
+ footer p{margin-top: 20px; font-size: 0.8rem; font-weight: inherit;
+ color: #ccc;} 
+ 
+ footer p{font-size: 0.8rem;}
+ .foot_b::after, .foot_b::before{content: "";display: block; clear: both;}
+ .foot_b>p{float: left;}
+
+footer img{float:right; margin-top: 20px;}
