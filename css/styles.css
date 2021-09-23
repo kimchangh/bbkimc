@@ -296,16 +296,26 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
-svg {
-  width: 70%;
+.ll {
+  width: 60%;
   vertical-align: middle;
 }
 
+.bba{margin-bottom: 5%;}
+.abb{display: block;
+  
+    margin: 0% auto;
+    width: 70%;
+    
+  }
+.con{  
+  width:60%;
+  vertical-align: middle;}
 table {
   caption-side: bottom;
   border-collapse: collapse;
 }
+
 
 caption {
   padding-top: 0.5rem;
@@ -7796,7 +7806,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #bbb6ac;
 }
 
 .bg-secondary {
