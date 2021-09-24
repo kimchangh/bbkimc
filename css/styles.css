@@ -7804,9 +7804,15 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
-.bg-primary {
+header{
   --bs-bg-opacity: 1;
-  background-color: #bbb6ac;
+  background-image: url(/img/bb.jpg);
+  background-size: cover;
+}
+.page-section.bg-primary{
+  --bs-bg-opacity: 1;
+  background-image: url(/img/bb2.jpg);
+  background-size: cover;
 }
 
 .bg-secondary {
@@ -11477,7 +11483,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #ce7676;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
