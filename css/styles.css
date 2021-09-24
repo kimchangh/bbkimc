@@ -7806,12 +7806,12 @@ textarea.form-control-lg {
 
 header{
   --bs-bg-opacity: 1;
-  background-image: url(../img/bb.jpg);
+  background-image: url(../img/bbb.png);
   background-size: cover;
 }
 .page-section.bg-primary{
   --bs-bg-opacity: 1;
-  background-image: url(../img/bb2.jpg);
+  background-image: url(../img/bb2.png);
   background-size: cover;
 }
 
