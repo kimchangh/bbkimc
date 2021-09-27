@@ -11373,7 +11373,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color:#f65884;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11385,6 +11385,8 @@ html {
   font-size: 80%;
   padding: 0.8rem;
 }
+
+.mt-4 p strong{padding-right: 10px;}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -11401,11 +11403,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #f5b334;
+    background: #f65884;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #f5b334;
+    background: #f65884;
   }
 
   #mainNav.navbar-shrink {
