@@ -300,7 +300,13 @@ figure {
   width: 60%;
   vertical-align: middle;
 }
+.oo{
+  width: 40%;
+  vertical-align: middle;}
 
+.oo{display: block;
+   margin: 0 auto;}  
+   
 .bba{margin-bottom: 5%;}
 .abb{display: block;
   
@@ -7813,7 +7819,7 @@ header{
   --bs-bg-opacity: 1;
   background-image: url(../img/bb2.png);
   background-size: cover;
-}
+  }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
